@@ -1,0 +1,145 @@
+*Import*: 
+    Funktionen: getData(searchObject), addData(entries), removeData(entry), changeData(entry), createTestData(amount)
+    import { getData, addData, removeData, changeData, createTestData } from "./Backend.js"
+    (Funktionen, welche nicht genutzt werden, bitte auch nicht importieren)
+
+
+
+**Funktionen**:
+
+
+*getData*:
+    Nutzung:
+        const [dbData, setDbData] = useState([]);
+
+        useEffect(() => {
+            const fetchData = async () => {
+                try {
+                    const data = await getData(testingSearchObject);
+                    setDbData(data);
+                } catch(error) {
+                    console.error("Es habe einen Fehler beim aufrufen von getData():", error);
+                } 
+            }
+
+            fetchData();
+        }, []);
+
+        Und dann einfach die dbData zum Aufbauen der Tabelle nutzen
+
+        Wichtig: Das Error Handling wird dem Nutzer der Funktion überlassen!
+
+*addData*:
+    Nutzung:
+        addData(entries)
+            .catch((error) => {
+              console.error("Fehler beim Hinzufügen der Daten:", error.message);
+            });
+    entries:
+        - entries kann ein einzelner entry oder ein Array aus mehreren entry-Objekten sein, der Server kann beides verarbeiten
+
+*removeData*:
+    Nutzung:
+        removeData(entry)
+            .catch((error) => {
+              console.error("Fehler beim Löschen der Daten:", error.message);
+            });
+    entry:
+        - der entry muss das zu löschende entry-Object sein, nur wenn es genau so mit Datenbank übereinstimmt, wird es auch gelöscht
+
+*changeData*:
+    Nutzung:
+        changeData(entry)
+            .catch((error) => {
+              console.error("Fehler beim Ändern der Daten:", error.message);
+            });
+    entry: 
+        - entry muss das zu ändernde entry-Object sein, bei dem auschließlich die "serialNumber" gleich sein muss
+        - Der zu änderte Datensatz wird Anhand der "serialNumber" ausfindig gemacht und alle anderen Daten werden überschrieben
+
+*createTestData*:
+    Nutzung: 
+        createTestData(amount)
+            .catch((error) => {
+                console.error("Fehler beim Erstellen der Test-Daten:", error.message);
+            });
+    amount:
+        - eine Zahl, wie viele Test-Datensätze generiert werden sollen
+        - es wird immer einer mehr für den Testing-Datensatz generiert
+
+
+
+
+**Objecte**:
+
+
+*searchObject*:
+    Inhalt: searchTerm, dateCreatedAtFrom, dateCreatedAtTo, dateLastChangedFrom, dateLastChangedTo, serialNumber, errorCode, description, imageDescription, complaintNumber, productGroup, lineArea, deliveryNoteNumber, batchNumber
+    Info: Nicht genutzte Werte bitte mit null auffüllen
+    Beispiel: 
+        const testingSearchObject = {
+            "searchTerm": "00001", 
+            "dateCreatedAtFrom": 10, 
+            "dateCreatedAtTo": 20, 
+            "dateLastChangedFrom": 10, 
+            "dateLastChangedTo": 20, 
+            "serialNumber": "00001", 
+            "errorCode": "00001", 
+            "description": "00001", 
+            "imageDescription": "00001", 
+            "complaintNumber": "00001", 
+            "productGroup": "00001", 
+            "lineArea": "00001", 
+            "deliveryNoteNumber": "00001", 
+            "batchNumber": "00001"
+        }        
+
+*dbData*:
+    Aufbau:
+        Array bestehend aus Entrys
+
+*entry*:
+    Art: Ist ein Objekt
+    Inhalte: 
+        - "createdAt" und "lastChanged" sind beides Zahlen, der Rest Strings
+        - iamges -> fileName: Dies ist lediglich der Name des files, der Zugriff erfolgt über den Link "http://localhost:3005/api/get-image?fileName=[fileName]", wobei [fileName] 
+          durch den Dateinamen ersetzt werden muss!
+    Aufbau (an Beispiel):
+        {
+            "date": {
+                "createdAt": 15,
+                "lastChanged": 15
+            },
+            "serialNumber": "dN_00001",
+            "errorCode": "eC_00001",
+            "description": "Das ist der Testing-Datensatz. Nicht verändern! 00001",
+            "images": [
+                {
+                    "fileName": "image01.jpg",
+                    "description": "Test-Bild 00001"
+                },
+                {
+                    "fileName": "image02.jpg",
+                    "description": "Test-Bild 00001"
+                }
+            ],
+            "complaintNumber": "cN_00001",
+            "productGroup": {
+                "productGroup": "pC_00001",
+                "lineArea": "lA_00001"
+            },
+            "materialNumbers": [
+                {
+                    "materialNumber": "mN_00001",
+                    "deliveryNoteNumber": "dNN_00001",
+                    "batchNumber": "bN_00001"
+                },
+                {
+                    "materialNumber": "mN_00001",
+                    "deliveryNoteNumber": "dN_$00001",
+                    "batchNumber": "bN_00001"
+                }
+            ]
+        }
+        
+

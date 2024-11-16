@@ -1,0 +1,794 @@
+[
+  {
+    "date": {
+      "createdAt": 15,
+      "lastChanged": 15
+    },
+    "serialNumber": "sN_00001",
+    "errorCode": "eC_00001",
+    "description": "Das ist der Testing-Datensatz. Nicht verändern! 00001",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Test-Bild 00001"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Test-Bild 00001"
+      }
+    ],
+    "complaintNumber": "cN_00001",
+    "productGroup": {
+      "productGroup": "pC_00001",
+      "lineArea": "lA_00001"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_00001",
+        "deliveryNoteNumber": "dNN_00001",
+        "batchNumber": "bN_00001"
+      },
+      {
+        "materialNumber": "mN_00001",
+        "deliveryNoteNumber": "dNN_00001",
+        "batchNumber": "bN_00001"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_aba5cc4356",
+    "errorCode": "eC_46a7410a1b",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_7b8741c43a",
+    "productGroup": {
+      "productGroup": "pC_0afd4cfa6f",
+      "lineArea": "lA_aaf46f846c"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_ec0966be98",
+        "deliveryNoteNumber": "dNN_5bc9ab8d42",
+        "batchNumber": "bN_2a575cbf40"
+      },
+      {
+        "materialNumber": "mN_db5ed47220",
+        "deliveryNoteNumber": "dNN_f842653e11",
+        "batchNumber": "bN_c7e938ee23"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_d2823c8c7d",
+    "errorCode": "eC_be4f67361d",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_def51e34f6",
+    "productGroup": {
+      "productGroup": "pC_23d00d60f2",
+      "lineArea": "lA_59fe0691a8"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_e9ab4e453b",
+        "deliveryNoteNumber": "dNN_4b9ddda35b",
+        "batchNumber": "bN_94b5b732be"
+      },
+      {
+        "materialNumber": "mN_6b4683d909",
+        "deliveryNoteNumber": "dNN_1880bf3169",
+        "batchNumber": "bN_7124de7462"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_6ea765249c",
+    "errorCode": "eC_0181ef65b9",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_475e3bf094",
+    "productGroup": {
+      "productGroup": "pC_5989d762cc",
+      "lineArea": "lA_8c0a1572bc"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_99bdd22846",
+        "deliveryNoteNumber": "dNN_3e26f7a68a",
+        "batchNumber": "bN_ad5e4a1744"
+      },
+      {
+        "materialNumber": "mN_fe1f4d4bc0",
+        "deliveryNoteNumber": "dNN_187d497d3e",
+        "batchNumber": "bN_d0a479e47e"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_7926ab4e49",
+    "errorCode": "eC_73503bbcd0",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_208b6d8c6a",
+    "productGroup": {
+      "productGroup": "pC_d456ab7e97",
+      "lineArea": "lA_e496b318c7"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_60df46e390",
+        "deliveryNoteNumber": "dNN_4f648a1789",
+        "batchNumber": "bN_5b35628fba"
+      },
+      {
+        "materialNumber": "mN_f521dd025a",
+        "deliveryNoteNumber": "dNN_b8e25124e7",
+        "batchNumber": "bN_ba6d03ef41"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_0a13c7c97f",
+    "errorCode": "eC_c6792c2c5d",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_01e3e8c454",
+    "productGroup": {
+      "productGroup": "pC_a63f438029",
+      "lineArea": "lA_34c8d1a51f"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_e2ef3ba35f",
+        "deliveryNoteNumber": "dNN_332995104c",
+        "batchNumber": "bN_dc287181a7"
+      },
+      {
+        "materialNumber": "mN_a42c1c0246",
+        "deliveryNoteNumber": "dNN_98bf2d90da",
+        "batchNumber": "bN_23d629e284"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_88952c3e9a",
+    "errorCode": "eC_01ae77a844",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_0542d9aee2",
+    "productGroup": {
+      "productGroup": "pC_f7b7e31f1a",
+      "lineArea": "lA_44e62bd820"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_02691b2750",
+        "deliveryNoteNumber": "dNN_23bfbc3f45",
+        "batchNumber": "bN_b129e51339"
+      },
+      {
+        "materialNumber": "mN_54ff4bfcc5",
+        "deliveryNoteNumber": "dNN_60ca3c7e70",
+        "batchNumber": "bN_1289ad6c63"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_66355d641b",
+    "errorCode": "eC_3a961877f6",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_45637688e9",
+    "productGroup": {
+      "productGroup": "pC_fdb10c8e6d",
+      "lineArea": "lA_9ff12066b7"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_e9b6343596",
+        "deliveryNoteNumber": "dNN_8bdc430465",
+        "batchNumber": "bN_e57f7e13ef"
+      },
+      {
+        "materialNumber": "mN_c9e866ec49",
+        "deliveryNoteNumber": "dNN_957645cfb6",
+        "batchNumber": "bN_a14e2b8892"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447095,
+      "lastChanged": 1731750447095
+    },
+    "serialNumber": "sN_d067b92c42",
+    "errorCode": "eC_d9fa09bd30",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_2b1f31b75e",
+    "productGroup": {
+      "productGroup": "pC_4f15181518",
+      "lineArea": "lA_042b5743fc"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_1d4e7917b3",
+        "deliveryNoteNumber": "dNN_c068b95886",
+        "batchNumber": "bN_eb13873b01"
+      },
+      {
+        "materialNumber": "mN_938ee35ef8",
+        "deliveryNoteNumber": "dNN_ba03c2a491",
+        "batchNumber": "bN_2c415591db"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_f9154cb584",
+    "errorCode": "eC_035e7cd662",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_25d1a036a3",
+    "productGroup": {
+      "productGroup": "pC_8b6808b758",
+      "lineArea": "lA_74833ba73e"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_a4bfa3a914",
+        "deliveryNoteNumber": "dNN_c97a09b389",
+        "batchNumber": "bN_0e2cd34d1c"
+      },
+      {
+        "materialNumber": "mN_8b50862627",
+        "deliveryNoteNumber": "dNN_8b10ebc773",
+        "batchNumber": "bN_98ae28e1a0"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_bac8fc6be4",
+    "errorCode": "eC_c0add21b1f",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_e78ca7b290",
+    "productGroup": {
+      "productGroup": "pC_1c7dd06b15",
+      "lineArea": "lA_b77d480ee0"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_5d75a2032f",
+        "deliveryNoteNumber": "dNN_b3113771fc",
+        "batchNumber": "bN_c47729c036"
+      },
+      {
+        "materialNumber": "mN_655c36cff2",
+        "deliveryNoteNumber": "dNN_38c8ca5965",
+        "batchNumber": "bN_ba0cdf4552"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_93f6595d71",
+    "errorCode": "eC_c575afa820",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_c94193df70",
+    "productGroup": {
+      "productGroup": "pC_4836893bb7",
+      "lineArea": "lA_5db43b7d07"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_69953f37af",
+        "deliveryNoteNumber": "dNN_b109bfe88d",
+        "batchNumber": "bN_8d7db095e5"
+      },
+      {
+        "materialNumber": "mN_2aadaf5f79",
+        "deliveryNoteNumber": "dNN_fb062833d1",
+        "batchNumber": "bN_cc99bea898"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_fc0b71c4e4",
+    "errorCode": "eC_e3acb9742f",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_b5886dd8a5",
+    "productGroup": {
+      "productGroup": "pC_d1499ef3a5",
+      "lineArea": "lA_2ee478849d"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_db522b864b",
+        "deliveryNoteNumber": "dNN_5ff54f6970",
+        "batchNumber": "bN_ad92b70129"
+      },
+      {
+        "materialNumber": "mN_4b3c23c0e6",
+        "deliveryNoteNumber": "dNN_990de30876",
+        "batchNumber": "bN_f8d0e3f698"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_7b2fc68fa9",
+    "errorCode": "eC_ef2189e7be",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_f33318d5ce",
+    "productGroup": {
+      "productGroup": "pC_f704e3cc73",
+      "lineArea": "lA_39f967ca5f"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_a69f9b8096",
+        "deliveryNoteNumber": "dNN_d606e0ce72",
+        "batchNumber": "bN_cb36e7b0bc"
+      },
+      {
+        "materialNumber": "mN_50c12c001f",
+        "deliveryNoteNumber": "dNN_f828325aaf",
+        "batchNumber": "bN_93f42598ba"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_b8fcd53fbc",
+    "errorCode": "eC_f03525faa1",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_968a77e03a",
+    "productGroup": {
+      "productGroup": "pC_148e24897e",
+      "lineArea": "lA_08543009b7"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_41c192a31a",
+        "deliveryNoteNumber": "dNN_64eb5d7a93",
+        "batchNumber": "bN_b2f9d22ebf"
+      },
+      {
+        "materialNumber": "mN_ef726e8319",
+        "deliveryNoteNumber": "dNN_68b6e65e7e",
+        "batchNumber": "bN_61672f1fae"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_784567cc8a",
+    "errorCode": "eC_07b2ec14d2",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_b0faf92088",
+    "productGroup": {
+      "productGroup": "pC_f407b7e888",
+      "lineArea": "lA_6d211a7e6b"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_73c4958bb6",
+        "deliveryNoteNumber": "dNN_1176b01721",
+        "batchNumber": "bN_95ea2cc6d9"
+      },
+      {
+        "materialNumber": "mN_d22d6e7b46",
+        "deliveryNoteNumber": "dNN_b8f497b4f9",
+        "batchNumber": "bN_a7baaaf7f9"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_6043a5c756",
+    "errorCode": "eC_df9e18c444",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_039e81f387",
+    "productGroup": {
+      "productGroup": "pC_9c4e9380bb",
+      "lineArea": "lA_4b79db6788"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_fcecdaae34",
+        "deliveryNoteNumber": "dNN_7ad799d69d",
+        "batchNumber": "bN_951793930c"
+      },
+      {
+        "materialNumber": "mN_eeb15d905e",
+        "deliveryNoteNumber": "dNN_508487f73c",
+        "batchNumber": "bN_be0627541e"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_ffa38dc3e7",
+    "errorCode": "eC_c3b3e1ead8",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_b3f612cc4a",
+    "productGroup": {
+      "productGroup": "pC_6a9513ad72",
+      "lineArea": "lA_c9fcf26853"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_83ca3fb585",
+        "deliveryNoteNumber": "dNN_6954574efd",
+        "batchNumber": "bN_9306b2c49b"
+      },
+      {
+        "materialNumber": "mN_712c21dbbf",
+        "deliveryNoteNumber": "dNN_8b08de6497",
+        "batchNumber": "bN_baee2bf06f"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_6972d4a90e",
+    "errorCode": "eC_891fb93cab",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_0fa67fc3ed",
+    "productGroup": {
+      "productGroup": "pC_5e68d7c491",
+      "lineArea": "lA_aeca453d2e"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_4f7bb934cb",
+        "deliveryNoteNumber": "dNN_b8a6da11ed",
+        "batchNumber": "bN_406299e17d"
+      },
+      {
+        "materialNumber": "mN_d00bb4c84d",
+        "deliveryNoteNumber": "dNN_ac478ea91c",
+        "batchNumber": "bN_dfc9155d4f"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_f24250b306",
+    "errorCode": "eC_e945c27dc9",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_85288d1d2e",
+    "productGroup": {
+      "productGroup": "pC_50dfa8f53b",
+      "lineArea": "lA_8dcf52b003"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_dcedf41fc4",
+        "deliveryNoteNumber": "dNN_31db075507",
+        "batchNumber": "bN_e05d423f53"
+      },
+      {
+        "materialNumber": "mN_3449fbdf8f",
+        "deliveryNoteNumber": "dNN_6f9756409e",
+        "batchNumber": "bN_a17446e15e"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750447096,
+      "lastChanged": 1731750447096
+    },
+    "serialNumber": "sN_e33c4a88d2",
+    "errorCode": "eC_5f741c1629",
+    "description": "Das ist nur eine Beispiel Beschreibung!",
+    "images": [
+      {
+        "fileName": "image01.jpg",
+        "description": "Bild 01"
+      },
+      {
+        "fileName": "image02.jpg",
+        "description": "Bild 02"
+      }
+    ],
+    "complaintNumber": "cN_095be79609",
+    "productGroup": {
+      "productGroup": "pC_7cb22412e4",
+      "lineArea": "lA_f48b31b896"
+    },
+    "materialNumbers": [
+      {
+        "materialNumber": "mN_b5645dbfd9",
+        "deliveryNoteNumber": "dNN_72ff341878",
+        "batchNumber": "bN_1e8d66d5bf"
+      },
+      {
+        "materialNumber": "mN_7f948d8620",
+        "deliveryNoteNumber": "dNN_1a0a4f7f88",
+        "batchNumber": "bN_4ebf190096"
+      }
+    ]
+  },
+  {
+    "date": {
+      "createdAt": 1731750512987,
+      "lastChanged": 1731750512987
+    },
+    "serialNumber": "sN_00002",
+    "errorCode": "eC_00002",
+    "description": "Das ist ein Eingabeversuch",
+    "images": [
+      {
+        "fileName": "1731750493383-color_background.jpg",
+        "description": "Was ein schönes buntes Bild"
+      }
+    ],
+    "complaintNumber": "",
+    "productGroup": {},
+    "materialNumbers": []
+  },
+  {
+    "date": {
+      "createdAt": 1731751922058,
+      "lastChanged": 1731751922058
+    },
+    "serialNumber": "sN_00003",
+    "errorCode": "eC_00003",
+    "description": "Das ist ein weiterer Eingabeversuch",
+    "images": [
+      {
+        "fileName": "1731751812930-color_background.jpg",
+        "description": "So viele Farben"
+      }
+    ],
+    "complaintNumber": "",
+    "productGroup": {},
+    "materialNumbers": []
+  }
+]

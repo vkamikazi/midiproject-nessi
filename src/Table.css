@@ -1,0 +1,49 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.head {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid black;
+}
+th {
+  height: 30px;
+}
+.sortable {
+  padding: 0px;
+}
+th,
+td {
+  border-right: 1px solid gray;
+}
+td {
+  vertical-align: top;
+}
+.line-right {
+  border-right: 2px solid gray;
+}
+tr {
+  border-bottom: 1px solid black;
+}
+.image {
+  display: block;
+  margin: auto;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+.grid-container-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+}
+.grid-row {
+  display: contents;
+}
